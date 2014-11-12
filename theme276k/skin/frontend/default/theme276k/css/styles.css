@@ -2686,7 +2686,7 @@ body div.shadow {
 .footer_info p { position:relative; padding:0 0 0 35px; font-size:13px; font-weight:300; line-height:19px; color:#6f6f6f; margin-bottom:12px; }
 .footer_info p strong { font-weight:normal; font-family: 'Ubuntu', sans-serif; }
 .footer_info p.f_inf1:before { position:absolute; left:0; top:6px; font-size:15px; content: "\f041"; font-family: FontAwesome; color:#6f6f6f; }
-.footer_info p.f_inf2:before { position:absolute; left:0; top:0; font-size:15px; content: "\f095"; font-family: FontAwesome; color:#6f6f6f; }
+.footer_info p.f_inf2:before { position:absolute; left:0; top:0; font-size:15px; content: "\f0e0"; font-family: FontAwesome; color:#6f6f6f; }
 
 
 .store-switcher{ margin-top: 10px;  }
