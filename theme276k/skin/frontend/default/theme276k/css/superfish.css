@@ -57,7 +57,7 @@
 		padding:20px;
 }
 .sf-menu li li { background:none; padding:0; font-size:12px; font-weight:normal; }
-.sf-menu li li.parent > a:before { content: "\f101"; float: right; }
+.sf-menu li li.parent > a:before { font-family: FontAwesome; content: "\f101"; float: right; }
 .sf-menu li li.last { }
 .sf-menu li li {  position: relative; float: none;}
 .sf-menu li li a {
@@ -128,8 +128,8 @@ ul.sf-menu li li li.sfHover ul {
 				color:#fff;
 
   }
-  #menu-icon:before {content: "\f055"; font-size: 25px; line-height: 50px; float: right; }
-  #menu-icon.active:before { content: "\f056"; }
+  #menu-icon:before {font-family: FontAwesome; content: "\f055"; font-size: 25px; line-height: 50px; float: right; }
+  #menu-icon.active:before { font-family: FontAwesome; content: "\f056"; }
 
   .sf-menu-phone {
     background: #202020;
@@ -165,8 +165,8 @@ ul.sf-menu li li li.sfHover ul {
   }
   .sf-menu-phone > li > strong {top: 9px; right: 18px; font-size: 20px; line-height: 20px;}
   .sf-menu-phone li strong:hover { cursor: pointer; }
-  .sf-menu-phone li strong:before {content: "\f067"; }
-  .sf-menu-phone li strong.opened:before { content: "\f068"; }
+  .sf-menu-phone li strong:before {font-family: FontAwesome; content: "\f067"; }
+  .sf-menu-phone li strong.opened:before { font-family: FontAwesome; content: "\f068"; }
 
   /* dropdown */
   .sf-menu-phone ul {  width: auto; border: 1px solid #313131; margin:10px 0 0 0 ;  display: none;  }
